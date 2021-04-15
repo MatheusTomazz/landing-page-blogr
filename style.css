@@ -123,17 +123,16 @@ header li{
 
 .container--text{
     flex:1;
+    padding: 50px;
     
 }
-
-
 
 .section--title{
     font-size: 25px;
     font-weight: 600;
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 70px;
+    padding-bottom: 10px;
     
 }
 
@@ -153,7 +152,7 @@ header li{
 
 
 .image--bg{
-    width: 905;
+    width: 50%;
 }
 
 .image--bg img{
@@ -164,3 +163,30 @@ header li{
     
 }
 
+/** area state of the*/
+
+.state{
+    background-color: hsl(208, 49%, 24%);
+    color: #f4f4f4;
+    border-radius: 0px  150px 0px 150px; 
+    height: 350px;
+    background-image: url('/images/bg-pattern-circles.svg');
+    background-position: left;
+    background-size: cover;
+}
+
+
+.section--title--state{
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+.image--phone{
+    z-index: 1;   
+}
+
+.free{
+    margin-top: 200px;
+}
