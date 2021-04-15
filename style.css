@@ -190,3 +190,28 @@ header li{
 .free{
     margin-top: 200px;
 }
+
+
+footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: hsl(240, 10%, 16%);
+    color: #f4f4f4;
+}
+
+.column{
+    flex: 1;
+}
+
+.column span{
+    font-size: 23px;
+    
+}
+
+.column ul{
+    padding-top: 50px;
+}
+
+.column li{
+    padding-top: 10px;
+}
