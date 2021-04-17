@@ -272,13 +272,21 @@ footer{
         display: flex;
         flex-direction: column;
         
+        
     }
     
    
     .image--bg img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image--bg img{
         width: 500px;
         height: 500px;
-        text-align: center;
+        object-fit: contain;
+        margin: auto;
         
     }
 
